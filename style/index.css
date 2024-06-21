@@ -1,0 +1,1151 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+p{
+  margin:20px 0px 0px 80px;
+  width:250px;
+}
+i{
+  background-color: aliceblue;
+  color:blue;
+  width:30px;
+  height:30px;
+}
+.impactive{
+  pointer-events: painted;
+  #impressionboxcontainer{
+    display: none;
+  }
+}
+.impinactive{
+  pointer-events: none;
+}
+#container{
+  background-color: black;
+  width:100vw;
+  height:100%;
+  color: white;
+  margin:0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+  /* pointer-events: none; */
+
+}
+#user{
+  background-color: azure;
+  width:20px;
+  height:20px;
+  border-radius: 20px;
+  border:2px solid white;
+  box-shadow: 3px 0px 3px rgb(101, 100, 100) ;
+  display:none;
+}
+#menu div{
+  cursor: pointer;
+
+}
+
+#dropdown button{
+  margin:0px 30px 0px 10px;
+  color:white;
+  background-color: black;
+}
+#dropdown{
+  display: flex;
+  margin-top:50px;
+}
+
+
+#sign{
+  background: linear-gradient(to right,violet,darkviolet);
+  border-radius: 10px;
+  padding:5px 5px 5px 5px;
+}
+#menu{
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+#navigationbar{
+  display: flex;
+  justify-content:space-around;
+  height: 50px;
+}
+
+/* #picture div{
+  width:5px;
+  height:5px;
+  border-radius: 2.5px;
+  background-color: rgb(103, 48, 232);
+  margin:2px 2px 2px 2px;
+  text-shadow: 10px -20px -30px rgba(89, 152, 223, 0.7);
+
+} */
+#abt{
+  margin:40px 0px 0px 0px;
+}
+#listofmenu{
+  display:block;
+  margin-top:50px;
+}
+#Resumebtn{
+  margin:20px 0px 0px 80px;
+  padding: 10px 15px 10px 15px;
+  width:200px;
+  background: linear-gradient(to right,violet,darkviolet);
+  cursor: pointer;
+  border-radius: 10px;
+}
+#iicon{
+  margin:50px 0px 10px 250px;
+}
+#i{
+  font-size:30px;
+  color:rgb(88, 88, 88)
+}
+#impressionboxcontainer h3{
+  color:blueviolet;
+  margin:20px 0px 20px 20px;
+  font-weight: bold;
+}
+#impressionboxcontainer{
+  background-color: rgb(35, 35, 35);
+  width:500px;
+  height:300px;
+  position: fixed;
+  margin:-300px 0px 0px 500px;
+  pointer-events: painted;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+#impressionboxcontainer:hover{
+  width:505px;
+  height:307px;
+  #ixclose{
+    width:45px;
+    /* height:25px; */
+  }
+}
+#impok{
+  margin:50px 0px 5px 230px;
+  width:60px;
+  padding: 5px 5px 5px 5px;
+  background-color: violet;
+}
+.regactive{
+    display: block;
+}
+#ixclose:active{
+  background-color: rgb(250, 63, 63);
+}
+#ixclose{
+  width:40px;
+  height:20px;
+  background-color: red;
+  text-align: center;
+  margin-left: 460px;
+  border-top-right-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#Rxclose{
+  width:40px;
+  height:20px;
+  background-color: red;
+  text-align: center;
+  margin-left: 360px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+#Rxclose:active{
+  background-color: rgb(250, 63, 63);
+}
+#lxclose{
+  width:40px;
+  height:20px;
+  background-color: red;
+  text-align: center;
+  margin-left: 360px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.reginactive{
+    display: none;
+}
+.loginbutinactive{
+  display: none;
+}
+.loginbutactive{
+  display: block;
+}
+#Regcontainer{
+  background-color: rgb(29, 29, 29);
+  width:400px;
+  height:580px;
+  border-radius: 20px;
+  position:fixed;
+  margin:-400px 0px 700px 500px;
+  /* display: none; */
+}
+#regform{
+  margin:20px 20px 20px 20px;
+}
+#Regcontainer h3{
+  margin-left:120px;
+}
+#Regcontainer input{
+  width:300px;
+  height:38px;
+  margin:10px 10px 10px 10px;
+  color:white;
+  background-color: black;
+}
+#logincontainer{
+  background-color: rgb(29, 29, 29);
+  width:400px;
+  height:480px;
+  border-radius: 20px;
+  position:fixed;
+  margin:-400px 0px 700px 500px;
+  
+  /* display: none; */
+}
+#logform{
+  margin:20px 20px 20px 20px;
+}
+#Regcontainer h3{
+  margin-left:120px;
+}
+#logincontainer input{
+  width:300px;
+  height:38px;
+  margin:10px 10px 10px 10px;
+  color:white;
+  background-color: black;
+}
+#regbut{
+  margin:50px 0px 20px 150px;
+  height:30px;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  background-color: violet;
+
+}
+#lRegbut{
+  margin:30px 0px 40px 150px;
+  width:60px;
+  height:30px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  background-color: violet;
+}
+#lloginbut{
+  margin:50px 0px 20px 150px;
+  height:30px;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  background-color: violet;
+}
+#or{
+  margin:10px 0px 10px 10px;
+}
+#loginbut{
+  margin:30px 0px 40px 150px;
+  width:60px;
+  height:30px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  background-color: violet;
+}
+
+
+#list{
+  display: none;
+  
+}
+#navigationbar div{
+
+  margin: 10px 10px 10px 10px;
+}
+#About{
+  margin:50px 0px 0px -60px;
+}
+.name1{
+  /* position: fixed; */
+  margin:-20px 0px 0px 80px;
+}
+.role1{
+  /* position: absolute; */
+  margin: -42px 0px 0px 250px;
+}
+#name,#role{
+  margin:20px 0px 10px 80px;
+  font-size: larger;
+  font-weight: 900;
+}
+#profile{
+  width:250px;
+  height:250px;
+  margin:20px 0px 0px 100px;
+  border:4px solid blueviolet;
+  border-radius: 125px;
+  border-style: dashed;
+  /* box-shadow: 10px 10px 10px rgb(0, 106, 255); */
+  animation:shadow 2s steps(3) infinite;
+
+}
+#dropdown ul{
+  background-color: black;
+  
+}
+
+#dropdown ul li{
+  color:white;
+
+}
+#dropdown ul li:hover{
+  background-color: blueviolet;
+
+}
+#abtbtn,#prtsbtn,#sklbtn,#edubtn{
+  cursor: pointer;
+}
+#abtbtn:active{
+  color: blue;
+}
+#prtsbtn:active{
+  color: blue;
+}
+#edubtn:active{
+  color: blue;
+}
+#sklbtn:active{
+  color: blue;
+}
+.name1{
+  font-size: x-large;
+  font-style:normal;
+  font-weight: bold;
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+  white-space:nowrap;
+  border-right: 2px solid red;
+  animation:ntyping 6s steps(8) infinite;
+  /* transition: 8s; */
+  color:rgb(0, 106, 255);
+  border-style:dotted;
+}
+.role1{
+  font-size: x-large;
+  font-style:normal;
+  font-weight: bold;
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+  white-space:nowrap;
+  border-right: 2px solid red;
+  animation:rtyping 6s steps(13) infinite;
+  color:rgb(0, 106, 255);
+  border-style:dotted;
+  
+}
+#skillscontainer{
+
+  background:radial-gradient(circle,rgb(48, 28, 48),rgb(27, 1, 31));
+}
+#skills{
+  margin:40px 0px 20px -40px;
+
+
+}
+
+#skillhead{
+  margin: 70px 0px 40px 150px;
+}
+#skilldesc{
+  width:500px;
+  margin:20px 0px 20px 10px;
+  font-style: normal;
+
+}
+#skillslist{
+  margin:30px 0px 10px 45px;
+  /* position: relative; */
+  width:380px;
+  height:300px;
+  border-radius: 15px;
+  box-shadow: 10px -10px 30px rgb(73, 73, 138),-10px 10px 30px rgb(73,73,138) ;
+  border: 2px solid blue;
+}
+#otherskills{
+  margin:30px 0px 10px 50px;
+  /* position: relative; */
+  width:380px;
+  height:300px;
+  border-radius: 15px;
+  box-shadow: 10px -10px 30px rgb(73, 73, 138),-10px 10px 30px rgb(73,73,138) ;
+  border: 2px solid blue;
+}
+#lstone,#lsttwo,#lstthree{
+  display: flex;
+}
+#lstone div{
+  margin:20px 10px 10px 10px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+}
+#lsttwo div{
+  margin:20px 10px 0px 10px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+
+  
+}
+#lstthree div{
+  margin:20px 10px 0px 10px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+
+}
+#skillslist img{
+  width:20px;
+  height:20px;
+}
+#skillslist h2{
+  color: rgb(147, 143, 143);
+  margin:10px 0px 10px 50px;
+}
+#otherskills h2{
+  color: rgb(147, 143, 143);
+  margin:10px 0px 10px 90px;
+}
+
+#other,#other1,#other2{
+  display: flex;
+
+}
+#other div{
+  margin:20px 10px 0px 10px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+
+}
+#other1 div{
+  margin:20px 0px 0px 10px;
+  border-radius: 5px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+}
+#other2 div{
+  margin:20px 0px 0px 10px;
+  border:1px solid burlywood;
+  padding: 7px 7px 7px 7px;
+  border-radius: 5px;
+}
+#otherskills img{
+  width:20px ;
+  height:20px;
+}
+ 
+
+  /* background:radial-gradient(circle,rgb(48, 28, 48),rgb(27, 1, 31)); */
+  /* border-top: -20px solid transparent; */
+  /* border-left: 50px solid transparent; */
+  /* border-right: 100px solid transparent; */
+ 
+#projectcontainer h1{
+  margin:50px 0px 40px 150px;
+}
+#projectcontainer p{
+  margin:20px 0px 0px 10px;
+  width:400px;
+}
+td{
+  border: 4px solid rgb(84, 77, 184);
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+td:active{
+  background-color: blueviolet;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 50px;
+}
+.overflow img{
+  width:200px;
+  height:100px;
+  margin:2px 0px 0px 0px;
+
+}
+.card{
+  background-color: black;
+  color:white;
+  border: 1px solid rgb(69, 69, 69);
+  width:250px;
+  height:250px;
+  cursor: pointer;
+  margin:0px 0px 30px 0px;
+  transition: 0.6s;
+
+}
+.card:hover{
+  margin:-10px 0px 40px 0px; 
+  box-shadow: 10px 0px 10px rgb(87, 87, 87);
+}
+#projectlists{
+  margin:60px 20px 10px 20px;
+}
+#buttons{
+  display: flex;
+  margin:20px 20px 10px 30px;  
+}
+#buttons button{
+  margin:10px 10px 10px 10px;
+  background-color: rgb(76, 74, 76);
+  padding:5px 5px 5px 5px;
+  border-radius: 10px;
+}
+#recoment{
+  color:rgb(75, 76, 76);
+  font-size: 15px;
+}
+#buttons button:active{
+  background-color: blueviolet;
+}
+#education h1{
+  margin:40px 0px 10px 150px;
+}
+#education p{
+  margin:20px 0px 0px 10px;
+  width:380px;
+}
+#education h4{
+  font-size: 17px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 0px 10px 0px;
+  width:400px;
+  border-radius: 10px;
+  box-shadow:10px -10px 30px rgb(73, 73, 138),-10px 10px 30px rgb(73, 73, 138) ;
+}
+#hrschool:hover{
+  /* box-shadow: 10px -10px 30px rgb(70, 70, 204),-10px 10px 30px rgb(70, 70, 204) ; */
+  transition: 3s;
+  height:220px;
+}
+#college:hover{
+  /* box-shadow: 10px 0px 10px rgb(70, 70, 204); */
+  height:220px;
+
+}
+#sscschool:hover{
+  /* box-shadow: 10px 0px 10px rgb(70, 70, 204); */
+  height:220px;
+
+}
+.std,.year{
+  color:rgb(104, 103, 103);
+  font-size: 12px;
+}
+.grade{
+  font-size: 13px;
+  font-weight: bolder;
+  color: rgb(121, 120, 120);
+  margin:20px 0px 10px 7px; 
+}
+.grade span{
+  font-size: 11px;
+  font-weight: 400;
+}
+.head{
+  margin:5px 0px 0px 30px;
+}
+.desc{
+  margin:20px 10px 10px 10px;
+  font-size: 12px;
+  color: rgb(198, 196, 196);
+}
+#contact{
+  margin-top:50px;
+}
+
+#contact p{
+  width:400px;
+  margin-left:20px;
+}
+#contact h1{
+  margin:20px 0px 10px 150px;
+}
+#contactcontainer{
+  width:350px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#contactcontainer:hover{
+  box-shadow: 7px -7px 7px rgb(80, 80, 80);
+  margin-top: 35px;
+  margin-right: 5px;
+}
+#contactcontainer img{
+   width:20px;
+   height:20px;
+   border-radius: 10px;
+}
+#message{
+  height:100px;
+}
+#cemail,#cname,#csubject{
+  background-color: black;
+  margin:20px 10px 10px 10px;
+  width:300px;
+  height:40px;
+  color:white;
+  border-radius: 10px;
+}
+#ehead{
+  padding:10px 10px 10px 10px;
+}
+#cmessage{
+  background-color: black;
+  margin:20px 10px 10px 10px;
+  width:300px;
+  height:100px;
+  color:white;
+  border-radius: 10px;
+}
+#esend{
+  margin:30px 0px 20px 140px;
+  background:linear-gradient(to right,violet,darkviolet);
+  padding:7px 7px 7px 7px;
+  border-radius: 10px;
+  width:80px;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 120px;
+  /* justify-content: center; */
+  background-color:black; 
+}
+
+#socialmedias i{
+  width:25px;
+  height:25px;
+  color:white;
+  margin:5px 10px 5px 5px;
+  background-color:black ;
+  cursor: pointer;
+}
+#socialmedias i:active{
+  color:blue;
+}
+#resmsg{
+  margin:10px 0px 10px 55px;
+}
+
+@keyframes ntyping{
+  from{
+    width:0;
+    font-weight: 900;
+    font-style: normal;
+  }
+  50%{
+    color:white;
+    text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7); 
+    width:185px;
+  }
+  to{
+    width:185px;
+    text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7);
+    font-weight: 900;
+  }
+}
+
+@keyframes rtyping{
+  from{
+    width:0;
+    font-weight: 900;
+    font-style: normal;
+  }
+  50%{
+    color:white;
+    text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7); 
+    width:190px;
+  }
+  to{
+    width:190px;
+    text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7);
+    font-weight: 900;
+  }
+}
+@keyframes shadow{
+  from{
+    /* box-shadow: 10px 10px 10px rgb(0, 106, 255); */
+    transition: 0.2s;
+  }
+  50%{
+    /* box-shadow: -7.5px -7.5px 7.5px rgb(213, 82, 207); */
+    transition: 0.2s;
+    border-style: dotted;
+    border:4px solid brown;
+  }
+  70%{
+    /* box-shadow: 5px 5px 5px rgb(79, 133, 209); */
+    transition: 0.2s;
+    border-style: dashed;
+    border:4px solid pink;
+  }
+  to{
+    /* box-shadow: -7.5px -7.5px 2.5px rgb(154, 78, 194); */
+    transition: 0.2s;
+    border-style: dotted;
+
+  }
+}
+
+@media (min-width:600px) and (max-width:850px)
+{
+#navigationbar{
+  display: flex;
+  justify-content:space-around;
+  height: 50px;
+}
+#listofmenu{
+  display:none;
+}
+#list{
+  display: flex;
+}
+#About{
+  margin:50px 0px 0px 70px;
+}
+#skills{
+  margin:40px 0px 20px 70px;
+
+
+}
+
+#skillhead{
+  margin: 70px 0px 40px 270px;
+}
+#skilldesc{
+  width:500px;
+  margin:20px 0px 20px 130px;
+  font-style: normal;
+
+}
+#projectcontainer h1{
+  margin:50px 0px 40px 270px;
+}
+#projectcontainer p{
+  margin:20px 0px 0px 120px;
+  width:400px;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 150px;
+}
+#education h1{
+  margin:40px 0px 10px 270px;
+}
+#education p{
+  margin:20px 0px 0px 130px;
+  width:380px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 0px 10px 100px;
+  width:400px;
+  border-radius: 10px;
+  box-shadow:10px -10px 30px rgb(73, 73, 138),-10px 10px 30px rgb(73, 73, 138) ;
+}
+#contact p{
+  width:400px;
+  margin-left:130px;
+}
+#contact h1{
+  margin:20px 0px 10px 270px;
+}
+#contactcontainer{
+  width:350px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 230px;
+  /* justify-content: center; */
+  background-color:black; 
+}
+
+}
+
+@media(min-width:950px) and (max-width:1400px)
+{
+  #About{
+  margin:50px 0px 0px 50px;
+  display: flex; 
+  /* justify-content: center; */ 
+  background-color: black;
+}
+#listofmenu{
+  display:none;
+}
+#list{
+  display: flex;
+}
+
+#user{
+  display: inline;
+}
+#navigationbar{
+  /* display: flex; */
+  justify-content: space-around;
+}
+#name{
+  font-size: 36px;
+}
+#role{
+  margin-top:48px;
+}
+#role{
+  font-size: 25px;
+  
+}
+.name1{
+  /* position: fixed; */
+  margin:-10px 0px 0px 80px;
+  font-size: 36px;
+}
+.role1{
+  /* position: absolute; */
+  margin: -45px 0px 0px 310px;
+}
+
+#profile{
+  margin:20px 0px 10px 200px;
+  width:300px;
+  height:300px;
+  border-radius: 150px;
+}
+#skills{
+  display: flex;
+  margin-left:80px;
+  /* justify-content: center; */
+}
+#skillhead{
+  margin-left:420px;
+}
+#skilldesc{
+  width:600px;
+  margin:20px 0px 20px 210px;
+  font-style: normal;
+  text-align: center;
+
+}
+#projectcontainer h1{
+  margin:50px 0px 40px 410px;
+  /* text-align: center; */
+}
+#projectcontainer p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 320px;
+}
+#education h1{
+  margin:40px 0px 10px 410px;
+}
+#education p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 200px 10px 210px;
+  width:600px;
+  border-radius: 10px;
+}
+#contactcontainer{
+  width:400px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 280px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#contact p{
+  width:500px;
+  margin-left:260px;
+}
+#contact h1{
+  margin:20px 0px 10px 410px;
+}
+#cemail,#cname,#csubject,#cmessage{
+  margin-left: 50px;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 350px;
+  /* justify-content: center; */
+  background-color:black;
+
+}
+}
+@media(min-width:860px) and (max-width:950px)
+{
+  #About{
+  margin:50px 0px 0px 10px;
+  display: flex; 
+  /* justify-content: center; */ 
+  background-color: black;
+}
+#listofmenu{
+  display:none;
+}
+#list{
+  display: flex;
+}
+
+#user{
+  display: inline;
+}
+#navigationbar{
+  /* display: flex; */
+  justify-content: space-around;
+}
+#name{
+  font-size: 36px;
+}
+#role{
+  margin-top:48px;
+}
+#role{
+  font-size: 25px;
+  
+}
+.name1{
+  /* position: fixed; */
+  margin:-10px 0px 0px 80px;
+  font-size: 36px;
+}
+.role1{
+  /* position: absolute; */
+  margin: -45px 0px 0px 310px;
+}
+
+#profile{
+  margin:20px 0px 10px 200px;
+  width:300px;
+  height:300px;
+  border-radius: 150px;
+}
+#skills{
+  display: flex;
+  margin-left:0px;
+  /* justify-content: center; */
+}
+#skillhead{
+  margin-left:410px;
+}
+#skilldesc{
+  width:600px;
+  margin:20px 0px 20px 210px;
+  font-style: normal;
+  text-align: center;
+
+}
+#projectcontainer h1{
+  margin:50px 0px 40px 410px;
+  /* text-align: center; */
+}
+#projectcontainer p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 320px;
+}
+#education h1{
+  margin:40px 0px 10px 410px;
+}
+#education p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 200px 10px 210px;
+  width:600px;
+  border-radius: 10px;
+}
+#contactcontainer{
+  width:400px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 280px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#contact p{
+  width:500px;
+  margin-left:260px;
+}
+#contact h1{
+  margin:20px 0px 10px 410px;
+}
+#cemail,#cname,#csubject,#cmessage{
+  margin-left: 50px;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 370px;
+  /* justify-content: center; */
+  background-color:black;
+
+}
+}
+
+
+
+@media(min-width:1400px)
+{
+#About{
+  margin:50px 0px 0px -180px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+#abt{
+  margin-right: 50px;
+}
+#listofmenu{
+  display:none;
+}
+#list{
+  display: flex;
+}
+#user{
+  display: inline;
+}
+#navigationbar{
+  /* display: flex; */
+  justify-content: space-around;
+}
+#name{
+  font-size: 36px;
+}
+#role{
+  margin-top:48px;
+}
+#role{
+  font-size: 25px;
+  
+}
+.name1{
+  /* position: fixed; */
+  margin:-10px 0px 0px 80px;
+  font-size: 36px;
+}
+.role1{
+  /* position: absolute; */
+  margin: -45px 0px 0px 310px;
+}
+
+#profile{
+  margin:20px 0px 10px 330px;
+  width:300px;
+  height:300px;
+  border-radius: 150px;
+}
+#skills{
+  display: flex;
+  justify-content: center;
+}
+#skillhead{
+  text-align: center;
+}
+#skilldesc{
+  width:600px;
+  margin:20px 0px 20px 550px;
+  font-style: normal;
+  text-align: center;
+
+}
+#projectcontainer h1{
+  margin:50px 0px 40px 750px;
+  /* text-align: center; */
+}
+#projectcontainer p{
+  margin:20px 0px 0px 530px;
+  width:600px;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 680px;
+}
+#education h1{
+  margin:40px 0px 10px 750px;
+}
+#education p{
+  margin:20px 0px 0px 540px;
+  width:600px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 200px 10px 540px;
+  width:600px;
+  border-radius: 10px;
+}
+#contactcontainer{
+  width:400px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 640px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#contact p{
+  width:500px;
+  margin-left:570px;
+}
+#contact h1{
+  margin:20px 0px 10px 750px;
+}
+#cemail,#cname,#csubject,#cmessage{
+  margin-left: 50px;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 730px;
+  /* justify-content: center; */
+  background-color:black;
+
+}
+}
