@@ -111,7 +111,7 @@ i{
 }
 #impressionboxcontainer{
   background-color: rgb(35, 35, 35);
-  width:410px;
+  width:500px;
   height:300px;
   position: fixed;
   margin:-400px 0px 0px 0px;
@@ -144,7 +144,7 @@ i{
   height:20px;
   background-color: red;
   text-align: center;
-  margin-left: 370px;
+  margin-left: 460px;
   border-top-right-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
@@ -652,6 +652,7 @@ table{
   background-color:black ;
   cursor: pointer;
 }
+
 #socialmedias i:active{
   color:blue;
 }
@@ -719,6 +720,32 @@ table{
   }
 }
 
+@media (min-width:400px ) and (max-width:600px)
+{
+  #impressionboxcontainer{
+    width:410px;
+  }
+  #impressionboxcontainer h3{
+    font-size: 20px;
+  }
+  #iicon{
+    margin-left: 200px;
+  }
+  #impok{
+    margin-left: 180px;
+  }
+  #impressionboxcontainer:hover{
+  width:415px;
+  height:307px;
+  #ixclose{
+    width:45px;
+    /* height:25px; */
+  }
+}
+#ixclose{
+  margin-left: 370px;
+}
+}
 @media (min-width:600px) and (max-width:850px)
 {
 #navigationbar{
