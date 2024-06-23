@@ -20,7 +20,7 @@ function Contact() {
       message:contactdetails.message
     }
 
-    const response = await fetch('https://portfoliobackend-gebb.onrender.com/api/sendmail/',
+    const response = await fetch('https://newportfoliobackend.onrender.com/api/sendmail/',
       {
         method: "POST",
         headers: {
