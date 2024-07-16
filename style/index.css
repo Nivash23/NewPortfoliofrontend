@@ -470,14 +470,15 @@ i{
   width:400px;
 }
 td{
-  border: 4px solid rgb(84, 77, 184);
+  border: 2px solid rgb(84, 77, 184);
   padding: 5px 10px 5px 10px;
   cursor: pointer;
   border-radius: 5px;
+  background-color: rgb(185, 26, 199);
   
 }
 td:active{
-  background-color: blueviolet;
+  background-color: rgb(198, 25, 207);
 }
 table{
   border-collapse: collapse;
@@ -687,10 +688,10 @@ table{
   50%{
     color:white;
     text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7); 
-    width:190px;
+    width:210px;
   }
   to{
-    width:190px;
+    width:220px;
     text-shadow: 10px 0px 10px rgba(89, 152, 223, 0.7);
     font-weight: 900;
   }
@@ -720,19 +721,19 @@ table{
   }
 }
 
-@media (min-width:400px ) and (max-width:600px)
+@media (min-width:370px ) and (max-width:600px)
 {
   #impressionboxcontainer{
-    width:410px;
+    width:350px;
   }
   #impressionboxcontainer h3{
     font-size: 20px;
   }
   #iicon{
-    margin-left: 200px;
+    margin-left: 160px;
   }
   #impok{
-    margin-left: 180px;
+    margin-left: 140px;
   }
   #impressionboxcontainer:hover{
   width:415px;
@@ -743,7 +744,7 @@ table{
   }
 }
 #ixclose{
-  margin-left: 370px;
+  margin-left: 310px;
 }
 }
 @media (min-width:600px) and (max-width:850px)
@@ -835,6 +836,134 @@ table{
   background-color:black; 
 }
 
+}
+
+
+@media(min-width:860px) and (max-width:950px)
+{
+  #About{
+  margin:50px 0px 0px 10px;
+  display: flex; 
+  /* justify-content: center; */ 
+  background-color: black;
+}
+#impressionboxcontainer{
+  margin-left:180px;
+}
+#Regcontainer{
+  margin-left:180px;
+  margin-top:-400px;
+}
+#logincontainer{
+  margin:-400px 0px 0px 180px;
+}
+#listofmenu{
+  display:none;
+}
+#list{
+  display: flex;
+}
+
+#user{
+  display: inline;
+}
+#navigationbar{
+  /* display: flex; */
+  justify-content: space-around;
+}
+#name{
+  font-size: 36px;
+}
+#role{
+  margin-top:48px;
+}
+#role{
+  font-size: 25px;
+  
+}
+.name1{
+  /* position: fixed; */
+  margin:-10px 0px 0px 80px;
+  font-size: 36px;
+}
+.role1{
+  /* position: absolute; */
+  margin: -45px 0px 0px 310px;
+}
+
+#profile{
+  margin:20px 0px 10px 200px;
+  width:300px;
+  height:300px;
+  border-radius: 150px;
+}
+#skills{
+  display: flex;
+  margin-left:0px;
+  /* justify-content: center; */
+}
+#skillhead{
+  margin-left:410px;
+}
+#skilldesc{
+  width:600px;
+  margin:20px 0px 20px 210px;
+  font-style: normal;
+  text-align: center;
+
+}
+#projectcontainer h1{
+  margin:50px 0px 40px 410px;
+  /* text-align: center; */
+}
+#projectcontainer p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+table{
+  border-collapse: collapse;
+  margin:50px 0px 0px 320px;
+}
+#education h1{
+  margin:40px 0px 10px 410px;
+}
+#education p{
+  margin:20px 0px 0px 210px;
+  width:600px;
+}
+#college,#sscschool,#hrschool{
+  border:1px solid blue;
+  margin:50px 200px 10px 210px;
+  width:600px;
+  border-radius: 10px;
+}
+#contactcontainer{
+  width:400px;
+  height:550px;
+  background-color: rgb(29, 28, 28);
+  margin:40px 0px 10px 280px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#contact p{
+  width:500px;
+  margin-left:260px;
+}
+#contact h1{
+  margin:20px 0px 10px 410px;
+}
+#cemail,#cname,#csubject,#cmessage{
+  margin-left: 50px;
+}
+#socialmedias{
+  display: flex;
+  margin:30px 0px 20px 370px;
+  /* justify-content: center; */
+  background-color:black;
+
+}
 }
 
 @media(min-width:950px) and (max-width:1400px)
@@ -963,156 +1092,30 @@ table{
 
 }
 }
-@media(min-width:860px) and (max-width:950px)
-{
-  #About{
-  margin:50px 0px 0px 10px;
-  display: flex; 
-  /* justify-content: center; */ 
-  background-color: black;
-}
-#impressionboxcontainer{
-  margin-left:180px;
-}
-#Regcontainer{
-  margin-left:180px;
-  margin-top:-400px;
-}
-#logincontainer{
-  margin:-400px 0px 0px 180px;
-}
-#listofmenu{
-  display:none;
-}
-#list{
-  display: flex;
-}
-
-#user{
-  display: inline;
-}
-#navigationbar{
-  /* display: flex; */
-  justify-content: space-around;
-}
-#name{
-  font-size: 36px;
-}
-#role{
-  margin-top:48px;
-}
-#role{
-  font-size: 25px;
-  
-}
-.name1{
-  /* position: fixed; */
-  margin:-10px 0px 0px 80px;
-  font-size: 36px;
-}
-.role1{
-  /* position: absolute; */
-  margin: -45px 0px 0px 310px;
-}
-
-#profile{
-  margin:20px 0px 10px 200px;
-  width:300px;
-  height:300px;
-  border-radius: 150px;
-}
-#skills{
-  display: flex;
-  margin-left:0px;
-  /* justify-content: center; */
-}
-#skillhead{
-  margin-left:410px;
-}
-#skilldesc{
-  width:600px;
-  margin:20px 0px 20px 210px;
-  font-style: normal;
-  text-align: center;
-
-}
-#projectcontainer h1{
-  margin:50px 0px 40px 410px;
-  /* text-align: center; */
-}
-#projectcontainer p{
-  margin:20px 0px 0px 210px;
-  width:600px;
-}
-table{
-  border-collapse: collapse;
-  margin:50px 0px 0px 320px;
-}
-#education h1{
-  margin:40px 0px 10px 410px;
-}
-#education p{
-  margin:20px 0px 0px 210px;
-  width:600px;
-}
-#college,#sscschool,#hrschool{
-  border:1px solid blue;
-  margin:50px 200px 10px 210px;
-  width:600px;
-  border-radius: 10px;
-}
-#contactcontainer{
-  width:400px;
-  height:550px;
-  background-color: rgb(29, 28, 28);
-  margin:40px 0px 10px 280px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-#contact p{
-  width:500px;
-  margin-left:260px;
-}
-#contact h1{
-  margin:20px 0px 10px 410px;
-}
-#cemail,#cname,#csubject,#cmessage{
-  margin-left: 50px;
-}
-#socialmedias{
-  display: flex;
-  margin:30px 0px 20px 370px;
-  /* justify-content: center; */
-  background-color:black;
-
-}
-}
 
 
 
 @media(min-width:1400px)
 {
 #About{
-  margin:50px 0px 0px -180px;
+  margin:50px 0px 0px 180px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: black;
 }
 #impressionboxcontainer{
-  margin-left:450px;
-  margin-top:-300px;
+  margin-left:600px;
+  margin-top:-250px;
 }
 #Regcontainer{
-  margin-left:450px;
+  margin-left:600px;
   margin-top:-400px;
 }
 #logincontainer{
-  margin:-400px 0px 0px 450px;
+  margin:-400px 0px 0px 600px;
 }
 #abt{
-  margin-right: 50px;
+  margin-right: 350px;
 }
 #listofmenu{
   display:none;
@@ -1131,48 +1134,50 @@ table{
   font-size: 36px;
 }
 #role{
-  margin-top:48px;
+  margin-top:54px;
+  font-size:27px ;
 }
-#role{
-  font-size: 25px;
-  
-}
+
 .name1{
   /* position: fixed; */
   margin:-10px 0px 0px 80px;
   font-size: 36px;
 }
 .role1{
+  font-size: 27px;
   /* position: absolute; */
-  margin: -45px 0px 0px 310px;
+  margin: -50px 0px 0px 330px;
 }
 
 #profile{
   margin:20px 0px 10px 330px;
-  width:300px;
-  height:300px;
-  border-radius: 150px;
+  width:350px;
+  height:350px;
+  border-radius: 350px;
 }
 #skills{
   display: flex;
-  justify-content: center;
+  margin-left: 400px;
 }
 #skillhead{
-  text-align: center;
+  margin-left: 850px;
 }
 #skilldesc{
-  width:600px;
+  width:700px;
   margin:20px 0px 20px 550px;
   font-style: normal;
   text-align: center;
 
+}
+#skillslist{
+  margin-right: 70px;
 }
 #projectcontainer h1{
   margin:50px 0px 40px 750px;
   /* text-align: center; */
 }
 #projectcontainer p{
-  margin:20px 0px 0px 530px;
+  margin:20px 0px 0px 550px;
   width:600px;
 }
 table{
@@ -1204,7 +1209,7 @@ table{
 
 #contact p{
   width:500px;
-  margin-left:570px;
+  margin-left:620px;
 }
 #contact h1{
   margin:20px 0px 10px 750px;
