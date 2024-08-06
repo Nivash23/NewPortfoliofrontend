@@ -84,7 +84,7 @@ function Registration({ regstate, setRegstate, setLoginbut }) {
           <button id="regbut" type="submit" onClick={Reghandler}
           
           >Register</button>
-        <div id="or">-----------------------OR-----------------------</div>
+        <div id="or">----------------------OR---------------------</div>
           <button id="loginbut" type="button" onClick={() => {
             setRegstate('reginactive');
             setLoginbut('loginbutactive');

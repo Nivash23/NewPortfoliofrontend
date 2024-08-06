@@ -5,9 +5,9 @@ import img3 from '../src/assets/Images/projectsimages/Weatherimg.png';
 import img4 from '../src/assets/Images/projectsimages/CardsWebimg.png';
 import img5 from '../src/assets/Images/projectsimages/Restcountries.png';
 import img6 from '../src/assets/Images/projectsimages/PettycashManager.png';
-import img7 from '../src/assets/Images/projectsimages/urlshortender.png';
+import img7 from '../src/assets/Images/projectsimages/bookingWeb.png';
 import img8 from '../src/assets/Images/projectsimages/E-commerce.png';
-import img9 from '../src/assets/Images/projectsimages/passwordReset.png';
+import img9 from '../src/assets/Images/projectsimages/passwordreset.png';
 
 import Cards from './Cards';
 
@@ -69,12 +69,12 @@ function Projects() {
       Recomendation:"kindly open in chrome"
     },
     {
-      ProjectName: "URL Shortender",
+      ProjectName: "BookingWebsite",
       Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
       imagesrc: img7,
       category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/FrontendforURLshortender",
-      livecheck: "https://snazzy-belekoy-71f364.netlify.app/",
+      codecheck: "https://github.com/Nivash23/BookingWebsiteFrontend",
+      livecheck: "https://charming-biscuit-c35cbf.netlify.app",
       Recomendation:"kindly open in chrome"
     },
     {
@@ -94,6 +94,8 @@ function Projects() {
       codecheck: "https://github.com/Nivash23/frontendforpasswordResettask",
       livecheck: "https://timely-griffin-f5bd2d.netlify.app/",
     }
+    
+  
 
   ]
 

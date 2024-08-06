@@ -83,11 +83,11 @@ function Contact() {
         
       </div>
       <div id="socialmedias">
-        <div><i class="fa fa-phone" onClick={()=>{window.location.href="https://www.phone.com"}} ></i></div>
-        <div><i class="fa fa-github" onClick={()=>{window.location.href="https://github.com/Nivash23?tab=repositories"}}></i></div>
-        <div><i class="fa fa-linkedin" onClick={()=>{window.location.href="https://www.linkedin.com/in/nivash-r-845a61269/"}}></i></div>
-        <div><i class="fa fa-envelope" onClick={()=>{window.location.href="https://mail.google.com/mail/u/0/#inbox"}}></i></div>
-        <div><i class="fa fa-whatsapp" onClick={()=>{window.location.href="https://wa.me/+919360154633"}}></i></div>
+        <div><i class="fa fa-phone" onClick={()=>{window.open('tel:+9360154633')}} ></i></div>
+        <div><i class="fa fa-github" onClick={()=>{window.open('https://github.com/Nivash23?tab=repositories')}}></i></div>
+        <div><i class="fa fa-linkedin" onClick={()=>{window.open('https://www.linkedin.com/in/nivash-r-845a61269/')}}></i></div>
+        <div><i class="fa fa-envelope" onClick={()=>{window.open('https://mail.google.com/mail/u/0/#inbox')}} target="_blank"></i></div>
+        <div><i class="fa fa-whatsapp" onClick={()=>{window.open('https://wa.me/+919360154633')}}></i></div>
       </div>
     </div>
   );

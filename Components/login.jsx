@@ -64,7 +64,7 @@ function login({ loginbut, setLoginbut, regstate, setRegstate }) {
         </div>
         
          <button id="lloginbut" type="submit"  onClick={Loginhandler}>Login</button>
-         <div id="or">-----------------------OR-----------------------</div>
+         <div id="or">----------------------OR---------------------</div>
           <button id="lRegbut" type="button" onClick={() => {
             setRegstate('regactive');
             setLoginbut('loginbutinactive');

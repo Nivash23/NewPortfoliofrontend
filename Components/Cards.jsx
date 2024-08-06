@@ -13,8 +13,8 @@ function Cards({image,projectName,implementation,Codecheck,Livecheck,recoment}) 
         <div id="recoment">{recoment }</div>
         {/* <a id='read' href={props.url } >Read more{more} </a> */}
         <div id="buttons">
-          <button onClick={()=>{window.location.href=Codecheck}}>check code</button>
-          <button onClick={()=>{window.location.href=Livecheck}}>live</button>
+          <button onClick={()=>{window.open(Codecheck)}}>check code</button>
+          <button onClick={()=>{window.open(Livecheck)}}>live</button>
  
         </div>
       </div>

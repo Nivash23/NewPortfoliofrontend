@@ -29,6 +29,7 @@ i{
   color: white;
   margin:0px 0px 0px 0px;
   border: 0px 0px 0px 0px;
+  overflow: hidden;
   /* pointer-events: none; */
 
 }
@@ -334,11 +335,11 @@ i{
   list-style: none;
   overflow: hidden;
   white-space:nowrap;
-  border-right: 2px solid red;
+  /* border-right: 2px solid red; */
   animation:ntyping 6s steps(8) infinite;
   /* transition: 8s; */
   color:rgb(0, 106, 255);
-  border-style:dotted;
+  /* border-style:dotted; */
 }
 .role1{
   font-size: x-large;
@@ -348,10 +349,10 @@ i{
   list-style: none;
   overflow: hidden;
   white-space:nowrap;
-  border-right: 2px solid red;
+  /* border-right: 2px solid red; */
   animation:rtyping 6s steps(13) infinite;
   color:rgb(0, 106, 255);
-  border-style:dotted;
+  /* border-style:dotted; */
   
 }
 #skillscontainer{
@@ -744,6 +745,13 @@ table{
   }
 }
 #ixclose{
+  margin-left: 310px;
+}
+#Regcontainer,#logincontainer{
+  width:350px;
+  margin-top:-580px;
+}
+#lxclose,#Rxclose{
   margin-left: 310px;
 }
 }
