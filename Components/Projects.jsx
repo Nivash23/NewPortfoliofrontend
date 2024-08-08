@@ -7,7 +7,7 @@ import img5 from '../src/assets/Images/projectsimages/Restcountries.png';
 import img6 from '../src/assets/Images/projectsimages/PettycashManager.png';
 import img7 from '../src/assets/Images/projectsimages/bookingWeb.png';
 import img8 from '../src/assets/Images/projectsimages/E-commerce.png';
-import img9 from '../src/assets/Images/projectsimages/passwordreset.png';
+import img9 from '../src/assets/Images/projectsimages/PasswordReset.png';
 
 import Cards from './Cards';
 
