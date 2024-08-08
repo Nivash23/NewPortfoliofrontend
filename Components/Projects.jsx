@@ -7,7 +7,7 @@ import img5 from '../src/assets/Images/projectsimages/Restcountries.png';
 import img6 from '../src/assets/Images/projectsimages/PettycashManager.png';
 import img7 from '../src/assets/Images/projectsimages/bookingWeb.png';
 import img8 from '../src/assets/Images/projectsimages/E-commerce.png';
-import img9 from '../src/assets/Images/projectsimages/PasswordReset.png';
+// import img9 from '../src/assets/Images/projectsimages/PasswordReset.png';
 
 import Cards from './Cards';
 
@@ -85,15 +85,15 @@ function Projects() {
       codecheck: "https://github.com/Nivash23/FlipkartFrontend",
       livecheck: "https://resplendent-griffin-1b5598.netlify.app",
       Recomendation:"kindly open in chrome"
-    },
-    {
-      ProjectName: "Password Reset",
-      Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
-      imagesrc: img9,
-      category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/frontendforpasswordResettask",
-      livecheck: "https://timely-griffin-f5bd2d.netlify.app/",
     }
+    // {
+    //   ProjectName: "Password Reset",
+    //   Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
+    //   imagesrc: img9,
+    //   category: "Frontend & Backend",
+    //   codecheck: "https://github.com/Nivash23/frontendforpasswordResettask",
+    //   livecheck: "https://timely-griffin-f5bd2d.netlify.app/",
+    // }
     
   
 
