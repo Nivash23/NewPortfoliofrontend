@@ -75,8 +75,8 @@ function Projects() {
       Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
       imagesrc: img7,
       category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/BookingWebsiteFrontend",
-      livecheck: "https://charming-biscuit-c35cbf.netlify.app",
+      codecheck: "https://github.com/Nivash23/FrontendforBookingWebsite",
+      livecheck: "https://clinquant-fenglisu-6ee06a.netlify.app",
       Recomendation:"kindly open in chrome"
     },
     {
