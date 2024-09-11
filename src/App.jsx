@@ -5,15 +5,15 @@ import Skills from '../Components/Skills'
 import Projects from '../Components/Projects'
 import Education from '../Components/Education'
 import Contact from '../Components/Contact'
-import Registration from '../Components/Registration'
+// import Registration from '../Components/Registration'
 import Impressionbox from '../Components/Impressionbox'
-import Login from '../Components/login'
+// import Login from '../Components/login'
 
 function App() {
   const [impstate, setImpstate] = useState('impinactive');
-  const [regstate, setRegstate] = useState('reginactive');
-  const [regbut, setRegbut] = useState('regbutinactive');
-  const [loginbut, setLoginbut] = useState('loginbutinactive');
+  // const [regstate, setRegstate] = useState('reginactive');
+  // const [regbut, setRegbut] = useState('regbutinactive');
+  // const [loginbut, setLoginbut] = useState('loginbutinactive');
   return (
     <div id='container' class={impstate}>
       <div id='navigationbar'>
@@ -41,17 +41,17 @@ function App() {
               
           
           
-          <button id="sign" onClick={() => { setRegstate('regactive'); 
+          {/* <button id="sign" onClick={() => { setRegstate('regactive'); 
             
-          }}>Signin</button>
+          }}>Signin</button> */}
         </div>
 
 
       </div>
         <About />
         <Impressionbox impstate={impstate } setImpstate={setImpstate} />
-      <Registration regstate={regstate} setRegstate={setRegstate}  setLoginbut={setLoginbut} />
-      <Login   loginbut={loginbut} setLoginbut={setLoginbut } regstate={regstate} setRegstate={setRegstate} />
+      {/* <Registration regstate={regstate} setRegstate={setRegstate}  setLoginbut={setLoginbut} /> */}
+      {/* <Login   loginbut={loginbut} setLoginbut={setLoginbut } regstate={regstate} setRegstate={setRegstate} /> */}
         <Skills />
         <Projects />
         <Education />
