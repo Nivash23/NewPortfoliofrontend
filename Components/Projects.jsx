@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
-import img1 from '../src/assets/Images/projectsimages/onlineshoppingimg.png';
-import img2 from '../src/assets/Images/projectsimages/Dictionaryimg.png';
-import img3 from '../src/assets/Images/projectsimages/Weatherimg.png';
-import img4 from '../src/assets/Images/projectsimages/CardsWebimg.png';
-import img5 from '../src/assets/Images/projectsimages/Restcountries.png';
-import img6 from '../src/assets/Images/projectsimages/PettycashManager.png';
-import img7 from '../src/assets/Images/projectsimages/bookingWeb.png';
-import img8 from '../src/assets/Images/projectsimages/E-commerce.png';
-// import img9 from '../src/assets/Images/projectsimages/resettingpassword.png';
-import img9 from '../src/assets/Images/projectsimages/Groerybasket.png';
+import React, { useEffect, useState } from 'react'
+// import img1 from '../src/assets/Images/projectsimages/onlineshoppingimg.png';
+// import img2 from '../src/assets/Images/projectsimages/Dictionaryimg.png';
+// import img3 from '../src/assets/Images/projectsimages/Weatherimg.png';
+// import img4 from '../src/assets/Images/projectsimages/CardsWebimg.png';
+// import img5 from '../src/assets/Images/projectsimages/Restcountries.png';
+// import img6 from '../src/assets/Images/projectsimages/PettycashManager.png';
+// import img7 from '../src/assets/Images/projectsimages/bookingWeb.png';
+// import img8 from '../src/assets/Images/projectsimages/E-commerce.png';
+// // import img9 from '../src/assets/Images/projectsimages/resettingpassword.png';
+// import img9 from '../src/assets/Images/projectsimages/Groerybasket.png';
 // import img9 from '../src/assets/Images/projectsimages/PasswordReset.png';
 
 import Cards from './Cards';
@@ -16,90 +16,23 @@ import Cards from './Cards';
 
 function Projects() {
   const [projectlist, setProjectlist] = useState([]);
-  const allprojects = [
-    {
-      ProjectName: "Online Shopping",
-      Implementation: "ReactJS , CSS",
-      imagesrc: img1,
-      category: "Frontend",
-      codecheck: "https://github.com/Nivash23/ShoppingCart",
-      livecheck:"https://courageous-basbousa-962eb0.netlify.app"
-      
-    },
-    {
-      ProjectName: "Dictionary",
-      Implementation: "HTML ,CSS ,JavaScript",
-      imagesrc: img2,
-      category: "Frontend",
-      codecheckd: "https://github.com/Nivash23/Dictionaryapp",
-      livecheck:"https://poetic-lolly-0ef6c9.netlify.app"
-
-      
-    },
-    {
-      ProjectName: "Weather",
-      Implementation: "HTML ,CSS , JavaScript",
-      imagesrc: img3,
-      category: "Frontend",
-      codecheck: "https://github.com/Nivash23/WeatherApp",
-      livecheck:"https://friendly-sable-67a901.netlify.app"
-
-    },
-    {
-      ProjectName: "CardsWebsite",
-      Implementation: "ReactJS , CSS",
-      imagesrc: img4,
-      category: "Frontend",
-      codecheck: "https://github.com/Nivash23/cardwebsite",
-      livecheck:"https://marvelous-torte-0e97e9.netlify.app/"
-    },
-    {
-      ProjectName: "RestCountries",
-      Implementation: "HTML,CSS,JavaScript",
-      imagesrc: img5,
-      category: "Frontend",
-      codecheck: "https://github.com/Nivash23/restCountriesApItask",
-      livecheck:"https://lucent-khapse-f40b8f.netlify.app"
-    },
-    {
-      ProjectName: "PettyCash Manager",
-      Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
-      imagesrc: img6,
-      category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/frontendforcapstone",
-      livecheck: "https://stunning-llama-3fa012.netlify.app",
-      Recomendation:"kindly open in chrome"
-    },
-    {
-      ProjectName: "BookingWebsite",
-      Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
-      imagesrc: img7,
-      category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/FrontendforBookingWebsite",
-      livecheck: "https://clinquant-fenglisu-6ee06a.netlify.app",
-      Recomendation:"kindly open in chrome"
-    },
-    {
-      ProjectName: "E-Commerce Website",
-      Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
-      imagesrc: img8,
-      category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/FlipkartFrontend",
-      livecheck: "https://resplendent-griffin-1b5598.netlify.app",
-      Recomendation:"kindly open in chrome"
-    },
-    {
-      ProjectName: "GroceryBasket",
-      Implementation: "ReactJS,CSS,ExpressJS,MongoDB",
-      imagesrc:img9,
-      category: "Frontend & Backend",
-      codecheck: "https://github.com/Nivash23/GroceryBasketFrontend",
-      livecheck: "https://ubiquitous-pudding-5517ba.netlify.app",
-    }
+  const [allprojects, setAllprojects] = useState([]);
     
-  
+  const handleprojects =async() => {
+    const response = await fetch('https://newportfoliobackend.onrender.com/api/projects/')
+    
+    const data = await response.json();
 
-  ]
+    if (response.status == 200)
+    {
+      setAllprojects(data.Allprojects)
+    }
+  }
+
+  // ]
+  useEffect(() => {
+    handleprojects();
+  },[])
 
   const all = () => {
     setProjectlist(allprojects);
