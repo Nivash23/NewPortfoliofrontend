@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../style/index.css'
 import profile from '../src/assets/Images/profilephoto.jpg'
 
+
 function About() {
+  
   return (
     <div id='About'>
+      
       <div id="abt">
 
         <div id="name" >Hi,I am </div>

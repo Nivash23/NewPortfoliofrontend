@@ -23,7 +23,7 @@ i{
   pointer-events: none;
 }
 #container{
-  background-color: black;
+  /* background-color: black; */
   width:100vw;
   height:100%;
   color: white;
@@ -358,10 +358,10 @@ i{
   /* border-style:dotted; */
   
 }
-#skillscontainer{
+/* #skillscontainer{
 
   background:radial-gradient(circle,rgb(48, 28, 48),rgb(27, 1, 31));
-}
+} */
 #skills{
   margin:40px 0px 20px -40px;
 
@@ -602,6 +602,7 @@ table{
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;
+  opacity: 0.7;
 }
 #contactcontainer:hover{
   box-shadow: 7px -7px 7px rgb(80, 80, 80);
@@ -856,7 +857,7 @@ table{
   margin:50px 0px 0px 10px;
   display: flex; 
   /* justify-content: center; */ 
-  background-color: black;
+  /* background-color: black; */
 }
 #impressionboxcontainer{
   margin-left:180px;
@@ -983,7 +984,7 @@ table{
   margin:50px 0px 0px 50px;
   display: flex; 
   /* justify-content: center; */ 
-  background-color: black;
+  /* background-color: black; */
 }
 #impressionboxcontainer{
   margin-left:250px;
@@ -1083,6 +1084,7 @@ table{
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;
+  
 }
 
 #contact p{
@@ -1112,7 +1114,7 @@ table{
   margin:50px 0px 0px 140px;
   display: flex;
   /* justify-content: center; */
-  background-color: black;
+  /* background-color: black; */
 }
 #impressionboxcontainer{
   margin-left:600px;
