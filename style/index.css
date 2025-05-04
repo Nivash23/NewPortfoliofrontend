@@ -121,6 +121,7 @@ i{
   pointer-events: painted;
   transition: 0.5s;
   border-radius: 20px;
+  z-index: 1;
 }
 #impressionboxcontainer:hover{
   width:505px;
@@ -737,6 +738,7 @@ table{
   #iicon{
     margin-left: 160px;
   }
+
   #impok{
     margin-left: 140px;
   }

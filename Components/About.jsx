@@ -17,7 +17,7 @@ function About() {
 
         <p> A highly motivated and hardworking individual looking for a responsible role in a
           reputable organization.</p>
-        <button id="Resumebtn" type="submit" onClick={()=>{window.open('https://guileless-cupcake-ea52b8.netlify.app/')}}>Check Resume</button>
+        <button id="Resumebtn" type="submit" onClick={()=>{window.open('https://drive.google.com/file/d/1-6ozlFAppMhUuAu7deDum5dIQ6qIw-8c/view')}}>Check Resume</button>
       </div>
         <div>
 

@@ -25,7 +25,8 @@ function Projects() {
 
     if (response.status == 200)
     {
-      setAllprojects(data.Allprojects)
+      setAllprojects(data.Allprojects);
+      setProjectlist(data.Allprojects)
     }
   }
 
